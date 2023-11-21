@@ -1,0 +1,42 @@
+.addRestaurant{
+    width: 100%;
+    background-color: rgba(22, 21, 21, 0.563);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.restaurant-group{
+    background-color: rgba(29, 30, 30, 0.587);
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid white;
+    box-shadow: 2px 2px 2px gray;
+}
+.restaurant-group select{
+    background-color: rgba(22, 21, 21, 0.563);
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.restaurant-group select:hover{
+    background-color: rgba(29, 30, 30, 0.587);
+}
+.restaurant-group input{
+    background-color: rgba(22, 21, 21, 0.563);
+    color: white;
+    width: 100%;
+}
+.btn-enviar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.btn-enviar button{
+    border-radius: 20px;
+    background-color: rgba(29, 30, 30, 0.587);
+    color: white;
+}

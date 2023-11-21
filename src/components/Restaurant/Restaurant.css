@@ -1,0 +1,75 @@
+.Restaurant{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+.btn-home{
+    width: 50px;
+    height: 50px;
+    color: white;
+    background-color: rgba(22, 21, 21, 0.563);
+    border-radius: 100%;
+}
+.presentation{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagePerfil img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.imagePerfil{
+    width: 150px;
+    border-radius: 100%;
+    border: 1px solid gray;
+    
+}
+.presentation span{
+    color: gray;
+    font-weight: bold;
+    font-size: 25px;
+}
+.list-status{
+    height: 52vh;
+    background-color: rgba(22, 21, 21, 0.563);
+    overflow-y: scroll;
+    margin-top: 20px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item-status{
+    display: flex;
+    margin-bottom: 10px;
+    background-color: rgba(29, 30, 30, 0.587);
+    width: 95%;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+.delete-restaurant{
+    color: red;
+    background-color: rgba(22, 21, 21, 0.563);
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.edit-restaurant{
+    color: white;
+    background-color: rgba(22, 21, 21, 0.563);
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.dir-status{
+    width: 73%;
+    text-align: end;
+}
+.abierto{
+    color: green;
+}
+.cerrado{
+    color: red;
+}
